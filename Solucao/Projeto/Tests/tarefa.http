@@ -1,0 +1,23 @@
+### Listar todas as tarefas
+GET http://localhost:5134/api/tarefas/listar
+
+### Cadastrar uma nova tarefa
+POST http://localhost:5134/api/tarefas/cadastrar
+Content-Type: application/json
+
+{
+    "titulo": "Estudar Node.js",
+    "descricao": "Estudar Node.js para desenvolver aplicações web",
+    "categoriaId": "12ea6828-03d8-4165-bccb-b463d95f5409"
+}
+
+### AAAAAAAAAAAAAAAAAA não consigo de jeito nenhum fazer alterar
+PUT http://localhost:5134/api/tarefas/alterar/
+Content-Type: application/json
+
+###
+GET http://localhost:5134/api/tarefas/naoconcluidas
+###
+GET http://localhost:5134/api/tarefas/concluidas
+
+
